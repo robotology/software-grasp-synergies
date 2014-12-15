@@ -1,5 +1,3 @@
-Software-Synergies
-==================
 Welcome to the first release of the Software Synergies Grasper Module!
 =====================================================================
 
