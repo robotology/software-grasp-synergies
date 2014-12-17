@@ -1,5 +1,11 @@
-Welcome to the first release of the Software Synergies Grasper Module!
+Welcome to the first release of the Software Grasping Synergies GraspModule!
 =====================================================================
+
+This module implements grasping synergies in software for the iCub hand, as described in the publication Simplifying Grasping Complexity through Generalization of Kinaesthetically Learned Synergies, G. Cotugno, V. Mohan, K. Althoefer, T. Nanayakkara, ICRA 2014 freely downloadable from Giuseppe's page on thrish.org. 
+
+The module allows to grasp a wide variety of objects like markers, cuboids, and many others described in the paper, using a power grasp or a pinch grip. The module can be easily extended with other grasping primitives by modifying the config files as described in the documentation.
+
+Since publication date, the code has been refactored and re-engineered and is much faster and efficient than before. Please refer to the changelog on the documentation's mainpage for details.
 
 This module differs from other YARP modules as it intensively uses TypeSafeBottles, that is a type safe backward compatible extension of YARP bottles.
 
