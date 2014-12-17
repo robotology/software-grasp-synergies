@@ -12,6 +12,8 @@ This module differs from other YARP modules as it intensively uses TypeSafeBottl
 The module uses the bottles for parsing the config file, the required components are in the src folder.
 It is possible (but not mandatory) to communicate with the module using typesafe bottles, the specifications and components are in the "common" folder. This self-contained folder contains all the required elements to use typesafe bottles in your own projects for communication or file parsing.
 
+If you plan to use the module for your research, please cite the above paper as a reference.
+
 Folder/files description:
 - app -- configuration files
 - cmake -- YARP cmake file
