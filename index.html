@@ -1,16 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Software-grasp-synergies by robotology</title>
 
-<!DOCTYPE HTML>
-<html lang="en-US">
-	<head>
-		<meta charset="UTF-8">
-			<meta http-equiv="refresh" content="1;url=https://github.com/robotology/software-synergies/tree/gh-pages/doxygen/html/index.html">
-				<script type="text/javascript">
-window.location.href = "https://github.com/robotology/software-synergies/tree/gh-pages/doxygen/html/index.html"
-				</script>
-			<title>Page Redirection</title>
-	</head>
-	<body>
-If you are not redirected automatically, follow the <a href="https://github.com/robotology/software-synergies/tree/gh-pages/doxygen/html/index.html">link to the documentation</a>
-	</body>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Software-grasp-synergies</h1>
+        <p class="header">Module implementing grasping synergies in software for the iCub hand and TypeSafe Bottles release</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/robotology/software-grasp-synergies/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/robotology/software-grasp-synergies/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/robotology/software-grasp-synergies">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/robotology">robotology</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="welcome-to-the-first-release-of-the-software-grasping-synergies-module" class="anchor" href="#welcome-to-the-first-release-of-the-software-grasping-synergies-module" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to the first release of the Software Grasping Synergies Module!</h1>
+
+<p>This module implements grasping synergies in software for the iCub hand. The module allows to grasp a wide variety of objects and is developed on YARP for the iCub.</p>
+
+<p>The algorithm is described in the publication <em>Simplifying Grasping Complexity through Generalization of Kinaesthetically Learned Synergies, G. Cotugno, V. Mohan, K. Althoefer, T. Nanayakkara, ICRA 2014</em> freely downloadable from Giuseppe's page on thrish.org. </p>
+
+<p>The module objects like markers, cuboids, and many others described in the paper, can be grasped using a power grasp or a pinch grip. The module can be easily extended with other grasping primitives by modifying the config files as described in the documentation.</p>
+
+<p>Since publication date, the code has been refactored and re-engineered and is much faster and efficient than before. Please refer to the changelog on the documentation's mainpage for details.</p>
+
+<p>This module differs from other YARP modules as it intensively uses TypeSafeBottles, that is a type safe backward compatible extension of YARP bottles. A preliminary release of the TypeSafeBottles is included in the repository.</p>
+
+<p>The module uses the bottles for parsing the config file, the required components are in the src folder.
+It is possible (but not mandatory) to communicate with the module using typesafe bottles, the specifications and components are in the "messages" folder. This self-contained folder contains all the required elements to use typesafe bottles in your own projects for communication or file parsing.</p>
+
+<p>If you plan to use the module for your research, please cite the above paper as a reference.</p>
+
+<p>This module has been developed on YARP version 2.3.22 and has been tested on Linux and Windows.</p>
+
+<p>For queries on this module please contact the authors Giuseppe Cotugno and Kris De Meyer (giuseppe.cotugno_at__kcl.ac.uk)</p>
+
+<p>Have fun!</p>
+
+<p>The development of this module and the TypeSafeBottles have been supported by EC FP7 DARWIN Project, Grant No. 270138. 
+Website: <a href="http://darwin-project.eu/">http://darwin-project.eu/</a></p>
+
+<p>Copyright 2013, King's College London, Released under GPL v2 and later versions.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
 </html>
-
